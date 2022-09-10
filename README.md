@@ -8,11 +8,15 @@ Recommended:
 
 # Setting Up:
 Install the libraries listed in the `requirements.txt` via the command:
-```bash
-pip install -r requirements.txt
-pip install pillow (required module for the image resizing/evaluation advanced feature)
-pip install keras-tuner (required module for the hyper parameter tuning advanced feature)
-```
+
+```pip install -r requirements.txt```
+
+Also make sure to install:
+
+```pip install pillow``` (required module for the image resizing/evaluation advanced feature)
+
+```pip install keras-tuner``` (required module for the hyper parameter tuning advanced feature)
+
 
 Recommended to use a virtual environment either from either [virtualenv](https://docs.python.org/3/library/venv.html) or [anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). This setup helps isolate project dependencies from user dependencies as to avoid version conflicts.
 
